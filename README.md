@@ -12,3 +12,5 @@
 - [Cosmos](https://www.cosmos.so/)
 - [Pinterest](https://ch.pinterest.com/)
 - [Adobe Font](https://fonts.adobe.com/)
+
+_Repo cloné et ouvert dans VS Code._
