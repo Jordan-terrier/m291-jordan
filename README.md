@@ -8,3 +8,7 @@
 - Je n'ai pas encore d'idée.
 ## Comment me trouver
 - GitHub : Jordan-terrier
+## Mes 3 sites préférés
+- [Cosmos](https://www.cosmos.so/)
+- [Pinterest](https://ch.pinterest.com/)
+- [Adobe Font](https://fonts.adobe.com/)
