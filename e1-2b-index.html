@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jordan — Page de présentation</title>
+<style>
+  /* Palette sobre et polices limitées à deux familles */
+  :root {
+    --couleur-fond: #f5f3ef;
+    --couleur-carte: #ffffff;
+    --couleur-texte: #262421;
+    --couleur-accent: #3a5a78;
+    --couleur-bordure: #ddd8d0;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Georgia", "Times New Roman", serif;
+    background-color: var(--couleur-fond);
+    color: var(--couleur-texte);
+    line-height: 1.6;
+    padding: 1.5rem;
+  }
+
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 2.2rem;
+    color: var(--couleur-accent);
+    letter-spacing: 0.02em;
+  }
+
+  header p {
+    font-size: 1.05rem;
+    margin-top: 0.75rem;
+    max-width: 32ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section {
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2rem;
+    color: var(--couleur-accent);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--couleur-bordure);
+    padding-bottom: 0.4rem;
+  }
+
+  /* Les trois compétences sont présentées sous forme de cartes */
+  .competences {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .competence {
+    background-color: var(--couleur-carte);
+    border: 1px solid var(--couleur-bordure);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .competence strong {
+    display: block;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: var(--couleur-accent);
+    margin-bottom: 0.4rem;
+  }
+
+  .contact {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1.5rem 1rem;
+    background-color: var(--couleur-carte);
+    border: 1px solid var(--couleur-bordure);
+    border-radius: 8px;
+  }
+
+  a.lien-github {
+    display: inline-block;
+    margin-top: 0.6rem;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--couleur-accent);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.95rem;
+  }
+
+  a.lien-github:hover,
+  a.lien-github:focus {
+    opacity: 0.9;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 0.8rem;
+    color: #7a756c;
+  }
+
+  /* Sur petit écran, les cartes de compétences se placent en colonne */
+  @media (max-width: 480px) {
+    .competences {
+      grid-template-columns: 1fr;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <h1>Jordan</h1>
+    <p>Je suis actuellement en option design et création d'entreprise.</p>
+  </header>
+
+  <section>
+    <h2>Ce qui me motive</h2>
+    <div class="competences">
+      <div class="competence">
+        <strong>Design</strong>
+        Créer des visuels clairs et agréables à regarder.
+      </div>
+      <div class="competence">
+        <strong>Photographie</strong>
+        Capturer des moments et raconter une histoire en image.
+      </div>
+      <div class="competence">
+        <strong>Réseaux sociaux</strong>
+        Imaginer des contenus qui donnent envie d'échanger.
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Me retrouver</h2>
+    <p>Vous pouvez consulter mes projets sur GitHub.</p>
+    <a class="lien-github" href="https://github.com/Jordan-terrier" target="_blank" rel="noopener noreferrer">
+      Voir mon profil GitHub
+    </a>
+  </section>
+
+  <footer>
+    <p>Page créée dans le cadre de ma formation de médiamaticien·ne CFC.</p>
+  </footer>
+</main>
+
+</body>
+</html>
