@@ -1,6 +1,6 @@
 **1. Pitch**
 
-Où partir ? aide à choisir une destination de voyage en quelques secondes à partir de son budget, de sa saison et du type de voyage voulu. Une seule tâche : filtrer, comparer, décider.
+VISIT aide à choisir une destination de voyage en quelques secondes à partir de son budget, de sa saison et du type de voyage voulu. Une seule tâche : filtrer, comparer, décider.
 
 **2. Public**
 
